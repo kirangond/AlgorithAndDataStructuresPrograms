@@ -1,0 +1,18 @@
+package dsa_programs_array;
+
+public class PrintingInSequenceAndReverse {
+
+	public static void main(String[] args) {
+        int array[] = {4,10,50,6,3};
+        for(int i=0; i<array.length ;i++)
+        {
+        	System.out.println(array[i]); // printing array elements in sequence
+        }
+        
+        for(int i=array.length-1; i>=0 ;i--)
+        {
+        	System.out.println(array[i]); // printing array elements in reverse direction
+        }
+	}
+
+}

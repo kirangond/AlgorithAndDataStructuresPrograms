@@ -3,7 +3,7 @@ package array_log2base2;
 public class LargestElement {
 
 	public static void main(String[] args) {
-		int arr[]= {8, 10, 3, 2, 6};
+		int arr[]= {8, 10, 3, 2, 6, 20,30,0,-3};
 		
 		/*
 		 int maximum_max=0;
@@ -22,8 +22,8 @@ public class LargestElement {
 	    for(int i=0;i<arr.length-1;i++)
 	    {
 	         
-	        if(arr[i]>arr[i+1])
-	          max=arr[i];
+	        if(arr[i+1]>max)
+	          max=arr[i+1];
 	          
 	    }
 	    System.out.println("Max ="+max);

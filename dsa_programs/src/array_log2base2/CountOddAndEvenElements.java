@@ -1,6 +1,6 @@
 package array_log2base2;
 
-import java.util.Scanner;
+
 
 public class CountOddAndEvenElements {
    public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class CountOddAndEvenElements {
     
     
    
-    //Write your code here
+    
     for(int i=0;i<arr.length;i++)
     {
         

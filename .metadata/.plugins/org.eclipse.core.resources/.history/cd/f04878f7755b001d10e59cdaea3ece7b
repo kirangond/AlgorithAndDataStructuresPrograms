@@ -1,0 +1,33 @@
+package array_log2base2;
+
+public class LargestElement {
+
+	public static void main(String[] args) {
+		int arr[]= {8, 10, 3, 2, 6, 20,30,0};
+		
+		/*
+		 int maximum_max=0;
+		    for(int i=0;i<=arr.length;i++)
+		    {
+		         int minimum_max=0;
+		        if(arr[i]>arr[i+1])
+		          minimum_max=arr[i];
+		          if(minimum_max>maximum_max)
+		           maximum_max=minimum_max;
+		    }
+		    System.out.println("Max ="+maximum_max);
+       */
+		
+		int max=arr[0];
+	    for(int i=0;i<arr.length-1;i++)
+	    {
+	         
+	        if(arr[i+1]>max)
+	          max=arr[i+1];
+	          
+	    }
+	    System.out.println("Max ="+max);
+		
+	}
+
+}

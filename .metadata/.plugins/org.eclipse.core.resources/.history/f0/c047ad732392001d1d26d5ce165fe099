@@ -1,0 +1,14 @@
+package strings.theory;
+
+public class BasicConcepts {
+	
+	public static void main(String args[])
+	{
+		
+	
+	//Strings instantiated as below
+	String str = new String ("kiran");
+	System.out.println(str);
+    
+	}
+}

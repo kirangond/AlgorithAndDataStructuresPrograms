@@ -1,0 +1,35 @@
+package strings.theory;
+
+public class StringMethods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "kiran";
+		
+		System.out.println(str.length()); // Will print the length of the string
+		
+		System.out.println(str.toLowerCase()); //Will return new string into lower case
+		
+		System.out.println(str.toUpperCase());  //Will return new  string into upper case
+		
+		System.out.println(str.trim()); // It will remove unwanted space
+		
+		System.out.println(str.substring(0)); //It will print from the starting of index number what we pass in parameter
+		
+		System.out.println(str.substring(2)); //ran //It will return new sub string
+		
+		System.out.println(str.substring(0,4)); //Including starting index and exclude end index and return the new string with sub string
+		
+		System.out.println(str.replace('a', 'e')); //replace a with e and replace all occurance
+		
+		System.out.println(str.replace("ir", "en")); //replace ir with en
+		
+		System.out.println(str.replace("i", "pavan")); //replace i with pavan at all occurrence of i
+		
+		System.out.println(str.startsWith("k"));
+		
+		
+	}
+
+}

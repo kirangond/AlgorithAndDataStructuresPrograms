@@ -1,0 +1,24 @@
+package strings.theory;
+
+public class StringMethods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "kiran";
+		
+		System.out.println(str.length()); // Will print the length of the string
+		
+		System.out.println(str.toLowerCase()); //Will return new string into lower case
+		
+		System.out.println(str.toUpperCase());  //Will return new  string into upper case
+		
+		System.out.println(str.trim()); // It will remove unwanted space
+		
+		System.out.println(str.substring(0)); //It will print from the starting of index number what we pass in parameter
+		
+		System.out.println(str.substring(2));
+		
+	}
+
+}

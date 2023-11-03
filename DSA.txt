@@ -3,3 +3,5 @@
 Nov 3 
 
 Array - Kadens Algorith
+   1. Brute force approach
+   2. Optimal solution

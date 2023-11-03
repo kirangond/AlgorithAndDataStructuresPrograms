@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;strings.SearchingUsingInBuilt.java&apos; to &apos;GFG.java&apos;&#x0D;&#x0A;- Original project: &apos;dsa_programs&apos;&#x0D;&#x0A;- Original element: &apos;strings.SearchingUsingInBuilt.java&apos;&#x0D;&#x0A;- Renamed element: &apos;strings.GFG.java&apos;" description="Rename compilation unit &apos;SearchingUsingInBuilt.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;strings{SearchingUsingInBuilt.java" name="GFG.java" references="false" stamp="1672976417586" version="1.0"/>
+</session>

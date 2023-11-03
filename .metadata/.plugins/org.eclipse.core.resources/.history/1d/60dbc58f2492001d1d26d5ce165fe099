@@ -1,0 +1,32 @@
+package strings.theory;
+
+import java.util.Scanner;
+
+public class BasicConcepts {
+	
+	public static void main(String args[])
+	{
+		
+	
+	//Strings instantiated as below and printing strings in different ways
+	String str = new String ("kiran");
+	System.out.println(str);
+	
+	String str1="pavan";
+	System.out.println(str1);
+	
+	char ch[]={'k','i','r','a','n'};
+	String str2=new String(ch);
+	System.out.println(str2);
+	
+	//User Input
+	
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter a word: ");
+	String str3 = sc.next();  //To take single word
+	System.out.println("Printing the user entered word:" + str3);
+	System.out.println("Enter a line: ");
+	String str4 = sc.nextLine(); //To take multiple word or line
+	System.out.println("Printing the user entered line:" + str4);
+	}
+}

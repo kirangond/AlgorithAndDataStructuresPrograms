@@ -1,0 +1,20 @@
+package strings.theory;
+
+public class BasicConcepts {
+	
+	public static void main(String args[])
+	{
+		
+	
+	//Strings instantiated as below
+	String str = new String ("kiran");
+	System.out.println(str);
+	
+	String str1="pavan";
+	System.out.println(str1);
+	
+	char ch[]={'k','i','r','a','n'};
+	String str2=new String(ch);
+	System.out.println(str2);
+	}
+}

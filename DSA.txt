@@ -5,3 +5,6 @@ Nov 3
 Array - Kadens Algorith
    1. Brute force approach
    2. Optimal solution
+   
+Nov 4 
+ - created the november_coding new branch

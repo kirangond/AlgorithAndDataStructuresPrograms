@@ -1,0 +1,90 @@
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/DSA and Algo (master)
+$ git branch
+* master
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/DSA and Algo (master)
+$ git branch november_coding
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/DSA and Algo (master)
+$ git branch
+* master
+  november_coding
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/DSA and Algo (master)
+$ git checkout november_coding
+FETCH_HEAD        HEAD              ORIG_HEAD         master            november_coding   origin/master
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/DSA and Algo (master)
+$ git checkout november_coding
+Switched to branch 'november_coding'
+M       .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+M       .metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/DSA and Algo (november_coding)
+$ git status
+On branch november_coding
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+        modified:   .metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+        modified:   DSA.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/DSA and Algo (november_coding)
+$ git add DSA.txt
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/DSA and Algo (november_coding)
+$ git commit -m 'created november branch add modified dsa.txt file'
+[november_coding c77742c] created november branch add modified dsa.txt file
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/DSA and Algo (november_coding)
+$ git push origin november_coding
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 390 bytes | 390.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'november_coding' on GitHub by visiting:
+remote:      https://github.com/kirangond/AlgorithAndDataStructuresPrograms/pull/new/november_coding
+remote:
+To https://github.com/kirangond/AlgorithAndDataStructuresPrograms.git
+ * [new branch]      november_coding -> november_coding
+
+gonda@LAPTOP-4UU3SGMU MINGW64 /c/DSA and Algo (november_coding)
+
+
+
+Nov 3 
+
+Array - Kadens Algorith
+   1. Brute force approach
+   2. Optimal solution
+   
+Nov 4 
+ - created the november_coding new branch
+ 
+ 1. Brute force approach 
+   - o(n2)
+   
+   int max_sum = 0;
+		int cur_sum = 0;
+		
+		for(int i=0;i<n;i++)
+		{
+			cur_sum += arr[i];
+			if(cur_sum>max_sum)
+			{
+				max_sum = cur_sum;
+			}
+			if(cur_sum<0)
+			{
+			 cur_sum = 0;
+			}
+		}
+		return max_sum;

@@ -68,5 +68,7 @@ Array - Kadens Algorith
    
 Nov 4 
  - created the november_coding new branch
- 
+
+
+Nov 7 - wasted
  

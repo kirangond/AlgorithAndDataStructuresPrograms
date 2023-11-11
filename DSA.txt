@@ -1,4 +1,4 @@
-gonda@LAPTOP-4UU3SGMU MINGW64 /c/DSA and Algo (master)
+ygonda@LAPTOP-4UU3SGMU MINGW64 /c/DSA and Algo (master)
 $ git branch
 * master
 
@@ -73,3 +73,4 @@ Nov 4
 Nov 7 - wasted
  Nov 8 - watsed
 Nov 9 - wasted should not happen tomorrow 
+Nov 11 - wasted

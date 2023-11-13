@@ -75,4 +75,4 @@ Nov 7 - wasted
 Nov 9 - wasted should not happen tomorrow 
 Nov 11 - wasted, +1
 Nov 12 - Wasted
-Nov 13 - wasted +2
+Nov 13 - wasted +3

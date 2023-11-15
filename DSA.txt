@@ -77,3 +77,4 @@ Nov 11 - wasted, +1
 Nov 12 - Wasted
 Nov 13 - wasted +4
 Nov 14 - wasted
+Nov 15 - wasted
